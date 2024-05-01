@@ -57,8 +57,8 @@ class Quiz {
 
 // Creación de instancias de las clases y ejecución del cuestionario
 const questions = [
-  new Question("¿Cuál es la capital de Francia?", ["París", "Londres", "Roma"], "París", ""),
-  new Question("¿Cuál es la capital de Inglaterra?", ["Madrid", "Londres", "Berlín"], "Londres", ""),
+  new Question("¿Cuál es la capital de Francia?", ["París", "Londres", "Roma", "Chillan", "Talca"], "París", ""),
+  new Question("¿Cuál es la capital de Inglaterra?", ["Madrid", "Londres", "Berlín", "Santiago", "La Serena"], "Londres", ""),
   new Question("¿Cuál es la capital de España?", ["Madrid", "Barcelona", "Sevilla"], "Madrid", ""),
   new Question("¿Cuál es la capital de Italia?", ["Milán", "Roma", "Nápoles"], "Roma", ""),
   new Question("¿Cuál es la capital de Alemania?", ["Hamburgo", "Berlín", "Múnich"], "Berlín", ""),
